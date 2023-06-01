@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h3, a {
+    font-family: 'Slackside One', cursive;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+body {
+    background-image: url('../assets/background.png');
+}
+header {
+    background-color: #750401;
+    width: 100%;
+    height: 140px;
+}
+header div {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 5px;
+}
+    header div h1, h3 {
+        margin-left: 20px;
+    }
+nav {
+    margin-top: 10px;
+    background-color: #480000;
+    height: 33px;
+    margin-left: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+article section {
+    background-color: #750401;
+    padding: 5px;
+    margin-top: 30px;
+    margin-right: 50%;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+article section h1 {
+    font-size: 24px;
+}
+
+aside {
+    background-color: #750401;
+    margin-left: 75%;
+    margin-right: 5px;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+table {
+    padding-left: 15px;
+}
+footer {
+    background-color: #750401;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    height: 50px;
+}
